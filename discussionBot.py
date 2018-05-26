@@ -14,7 +14,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,40) #Generates a random whole number between 1 and 40. Can be expanded for more threads.
+    post = randint(1,45) #Generates a random whole number between 1 and 45. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -81,9 +81,9 @@ while 1 == 1: #Makes the bot work constantly
 	else if post == 22:
 		reddit.subreddit('teenagers').submit(title='User appreciation thread', selftext="""Comment which users you appreciate
 
-Remember you can only mention three people per comment
+		Remember you can only mention three people per comment
 
-^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!""", flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!""", flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 	else if post == 23:
 		reddit.subreddit('teenagers').submit(title='Introduction thread', selftext="""Introduce yourself!
 
@@ -141,5 +141,20 @@ Remember you can only mention three people per comment
 	else if post == 40:
 		reddit.subreddit('teenagers').submit(title='RES upvote thread', selftext="Comment and RES users will tell you how many times they've upvoted you", flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted RES upvote thread'
+	else if post == 41:
+		reddit.subreddit('teenagers').submit(title='How many hours of sleep did you get last night?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted How many hours of sleep did you get last night?'
+	else if post == 42:
+		reddit.subreddit('teenagers').submit(title="What's your favorite soundtrack?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite soundtrack?"
+	else if post == 43:
+		reddit.subreddit('teenagers').submit(title="What's your favorite movie?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite movie?"
+	else if post == 44:
+		reddit.subreddit('teenagers').submit(title="What's your favorite TV show?", '^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite TV show?"
+	else if post == 45:
+		reddit.subreddit('teenagers').submit(title="What's your favorite movie?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite movie?"
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

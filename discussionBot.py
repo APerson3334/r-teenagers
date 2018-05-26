@@ -14,7 +14,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,33) #Generates a random whole number between 1 and 33. Can be expanded for more threads.
+    post = randint(1,40) #Generates a random whole number between 1 and 40. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -119,5 +119,27 @@ Remember you can only mention three people per comment
 		print 'submitted What are you listening to?'
 	else if post == 33:
 		reddit.subreddit('teenagers').submit(title="What's your favorite song?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite song?"
+	else if post == 34:
+		reddit.subreddit('teenagers').submit(title="What's your favorite weather?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite weather?"
+	else if post == 35:
+		reddit.subreddit('teenagers').submit(title='What would be the best superpower to have?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What would be the best superpower to have?'
+	else if post == 36:
+		reddit.subreddit('teenagers').submit(title="What's your favorite subreddit?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite subreddit?"
+	else if post == 37:
+		reddit.subreddit('teenagers').submit(title='What temperature is it for you right now?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What temperature is it for you right now?'
+	else if post == 38:
+		reddit.subreddit('teenagers').submit(title='User simulator thread', selftext='+/u/User_Simulator username', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		print 'submitted User simulator thread'
+	else if post == 39:
+		reddit.subreddit('teenagers').submit(title='User stats thread', selftext='/u/user-stats username', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		print 'submitted User stats thread
+	else if post == 40:
+		reddit.subreddit('teenagers').submit(title='RES upvote thread', selftext="Comment and RES users will tell you how many times they've upvoted you", flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		print 'submitted RES upvote thread'
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

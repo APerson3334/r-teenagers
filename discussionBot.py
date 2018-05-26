@@ -14,7 +14,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,8) #Generates a random whole number between 1 and 8. Can be expanded for more threads.
+    post = randint(1,17) #Generates a random whole number between 1 and 17. Can be expanded for more threads.
 
     if post == 1:
         r.submit('teenagers', "What's your unpopular opinion?", text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!')
@@ -68,8 +68,10 @@ while 1 == 1: #Makes the bot work constantly
 		r.submit('teenagers', 'What is your worst quality?', text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!')
 		print 'submitted What is your worst quality?'
 	else if post == 16:
-		
-
-^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!"""
+		r.submit('teenagers', 'Truth thread', text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!')
+		print 'submitted Truth thread'
+	else if post == 17:
+		r.submit('teenagers', 'Sub dare thread', text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!')
+		print 'submitted Sub dare thread'
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(900) # Wait 900 seconds (15 minutes) before posting again

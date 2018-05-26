@@ -1,4 +1,6 @@
 # Discussion Bot by u/Aperson3334
+#Idea by u/Arukimedesu
+#Thread ideas by u/timawesomeness
 # todo: finish adding threads from timawesomeness' wiki, add number to list to avoid repeat posts but find a way to clear it occasionally
 
 import praw # Python Reddit API Wrapper
@@ -151,10 +153,25 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title="What's your favorite movie?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your favorite movie?"
 	else if post == 44:
-		reddit.subreddit('teenagers').submit(title="What's your favorite TV show?", '^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
-		print "submitted What's your favorite TV show?"
-	else if post == 45:
-		reddit.subreddit('teenagers').submit(title="What's your favorite movie?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		reddit.subreddit('teenagers').submit(title="What's your favorite movie?", '^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your favorite movie?"
+	else if post == 45:
+		reddit.subreddit('teenagers').submit(title="What's your favorite TV show?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite TV show?"
+	else if post == 46:
+		reddit.subreddit('teenagers').submit(title='What was your favorite age of your life?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What was your favorite age of your life?'
+	else if post == 47:
+		reddit.subreddit('teenagers').submit(title="What's your favorite number?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite number?"
+	else if post == 48:
+		reddit.subreddit('teenagers').submit(title='What music artist/band do you want to see live?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What music artist/band do you want to see live?'
+	else if post == 49:
+		reddit.subreddit('teenagers').submit(title='What was the last thing you were angry about?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What was the last thing you were angry about?'
+	else if post == 50:
+		reddit.subreddit('teenagers').submit(title="What's the last dream you remember?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's the last dream you remember?"
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

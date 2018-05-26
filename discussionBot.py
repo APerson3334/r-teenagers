@@ -1,5 +1,5 @@
 # Discussion Bot by u/Aperson3334
-# todo: make bot flair posts, finish adding threads from timawesomeness' wiki, add number to list to avoid repeat posts but find a way to clear it occasionally
+# todo: finish adding threads from timawesomeness' wiki, add number to list to avoid repeat posts but find a way to clear it occasionally
 
 import praw # Python Reddit API Wrapper
 import random # Allows random number to be generated
@@ -14,7 +14,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,17) #Generates a random whole number between 1 and 17. Can be expanded for more threads.
+    post = randint(1,18) #Generates a random whole number between 1 and 18. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -53,21 +53,25 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title="What's something that a lot of people like but you don't care for?", selftext='', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's something that a lot of people like but you don't care for?"
 	else if post == 13:
-		r.submit('teenagers', 'What was one good thing and one bad thing that happened today?' text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		r.subreddit('teenagers').submit(title='What was one good thing and one bad thing that happened today?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted What was one good thing and one bad thing that happened today?'
 	else if post == 14:
-		r.submit('teenagers', 'Yay or nay thread', text="""Comment something and people will respond with yay or nay
+		r.subreddit('teenagers'),submit(title='Yay or nay thread', selftext="""Comment something and people will respond with yay or nay
 		
 		^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!'""", flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Yay or nay thread'
 	else if post == 15:
-		r.submit('teenagers', 'What is your worst quality?', text='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		r.subreddit('teenagers'),submit(title='What is your worst quality?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted What is your worst quality?'
 	else if post == 16:
-		r.submit('teenagers', 'Truth thread', text='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		r.subreddit('teenagers').submit(title='Truth thread', selftext='Like truth or dare but without the dares since nobody ever chooses dare anyway', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Truth thread'
 	else if post == 17:
-		r.submit('teenagers', 'Sub dare thread', text='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		r.subreddit('teenagers').submit(title='Sub dare thread', selftext='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Sub dare thread'
+	else if post == 18:
+		r.subreddit('teenagers').submit(title='Rice purity test scores', selftext="""http://www.ricepuritytest.com
+
+		^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!""", flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(900) # Wait 900 seconds (15 minutes) before posting again

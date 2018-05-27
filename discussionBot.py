@@ -16,7 +16,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,65) #Generates a random whole number between 1 and 65. Can be expanded for more threads.
+    post = randint(1,70) #Generates a random whole number between 1 and 70. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -220,5 +220,20 @@ while 1 == 1: #Makes the bot work constantly
 	else if post == 65:
 		reddit.subreddit('teenagers').submit(title="What's your favorite food?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your favorite food?"
+	else if post == 66:
+		reddit.subreddit('teenagers').submit(title='What does your bedroom look like?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What does your bedroom look like?'
+	else if post == 67:
+		reddit.subreddit('teenagers').submit(title="What's the oldest thing you own?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's the oldest thing you own?"
+	else if post == 68:
+		reddit.subreddit('teenagers').submit(title='What song is stuck in your head right now?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What song is stuck in your head right now?'
+	else if post == 69:
+		reddit.subreddit('teenagers').submit(title="What is the most illegal thing you've ever done?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What is the most illegal thing you've ever done?"
+	else if post == 70:
+		reddit.subreddit('teenagers').submit(title='Would you pay $125 to know who has a crush on you?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted Would you pay $125 to know who has a crush on you?'
 	# Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

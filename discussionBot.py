@@ -16,7 +16,7 @@ print 'logged in bois'
 
 while 1 == 1: #Makes the bot work constantly
 
-	post = random.randint(1,70) #Generates a random whole number between 1 and 70. Can be expanded for more threads.
+	post = random.randint(1,79) #Generates a random whole number between 1 and 79. Can be expanded for more threads.
 
 	if post == 1:
 		reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')

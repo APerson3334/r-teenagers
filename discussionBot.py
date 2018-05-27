@@ -235,5 +235,20 @@ while 1 == 1: #Makes the bot work constantly
 	else if post == 70:
 		reddit.subreddit('teenagers').submit(title='Would you pay $125 to know who has a crush on you?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Would you pay $125 to know who has a crush on you?'
+	else if post == 71:
+		reddit.subreddit('teenagers').submit(title="What's your favorite meme from more than a year ago?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite meme from more than a year ago?"
+	else if post == 72:
+		reddit.subreddit('teenagers').submit(title='Who is "that kid" at your school?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted Who is "that kid" at your school?'
+	else if post == 73:
+		reddit.subreddit('teenagers').submit(title='Opinion thread', selftext='Comment something and people will respond with their opinions on that thing', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		print 'submitted Opinion thread'
+	else if post == 74:
+		reddit.subreddit('teenagers').submit(title="What's your favorite Reddit post?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite Reddit post?"
+	else if post == 75:
+		reddit.subreddit('teenagers').submit(title="What's your biggest insecurity?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your biggest insecurity?"
 	# Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

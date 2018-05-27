@@ -16,7 +16,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,60) #Generates a random whole number between 1 and 60. Can be expanded for more threads.
+    post = randint(1,65) #Generates a random whole number between 1 and 65. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -204,6 +204,21 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title="What's your favorite holiday?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your favorite holiday?"
 	else if post == 60:
-		reddit.subreddit('teenagers').submit(title=Share a fun fact about yourself, selftext='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Share a fun fact about yourself', selftext='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+	else if post == 61:
+		reddit.subreddit('teenagers').submit(title='Where are you from?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted Where are you from?'
+	else if post == 62:
+		reddit.subreddit('teenagers').submit(title="What's your favorite music genre?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite music genre?"
+	else if post == 63:
+		reddit.subreddit('teenagers').submit(title="What's your least favorite music genre?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite music genre?"
+	else if post == 64:
+		reddit.subreddit('teenagers').submit(title='What was the last compliment someone gave you?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What was the last compliment someone gave you?'
+	else if post == 65:
+		reddit.subreddit('teenagers').submit(title="What's your favorite food?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite food?"
 	# Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

@@ -26,7 +26,7 @@ while 1 == 1: #Makes the bot work constantly
 		#print "submitted Controversial opinion thread"
 	if post == 3:
 		reddit.subreddit('teenagers').submit(title='Guys ask girls, girls ask guys', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
-		#print "submitted Guys ask girls, girls ask guys"
+		print "submitted Guys ask girls, girls ask guys"
 	if post == 4:
 		reddit.subreddit('teenagers').submit(title='Selfie thread', selftext='', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print "submitted Selfie thread"

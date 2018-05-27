@@ -16,7 +16,7 @@ print ‘logged in bois’
 
 while 1 == 1: #Makes the bot work constantly
 
-    post = randint(1,45) #Generates a random whole number between 1 and 45. Can be expanded for more threads.
+    post = randint(1,55) #Generates a random whole number between 1 and 55. Can be expanded for more threads.
 
     if post == 1:
         reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -176,5 +176,20 @@ while 1 == 1: #Makes the bot work constantly
 	else if post == 50:
 		reddit.subreddit('teenagers').submit(title="What's your dream job?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your dream job?"
+	else if post == 51:
+		reddit.subreddit('teenagers').submit(title="When's the last time you genuinely felt happy?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted When's the last time you genuinely felt happy?"
+	else if post == 52:
+		reddit.subreddit('teenagers').submit(title="Would you rather know when you'll die or how you'll die?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted Would you rather know when you'll die or how you'll die?"
+	else if post == 53:
+		reddit.subreddit('teenagers').submit(title="What's your aesthetic?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your aesthetic?"
+	else if post == 54:
+		reddit.subreddit('teenagers').submit(title="What's your favorite song lyric?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite song lyric?"
+	else if post == 55:
+		reddit.subreddit('teenagers').submit(title="What's your first name?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your first name?"
     # Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

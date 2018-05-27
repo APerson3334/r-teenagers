@@ -20,10 +20,10 @@ while 1 == 1: #Makes the bot work constantly
 
 	if post == 1:
 		reddit.subreddit('teenagers').submit(title="What's your unpopular opinion?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
-		#print "submitted What's your unpopular opinion?"
+		print "submitted What's your unpopular opinion?"
 	if post == 2:
 		reddit.subreddit('teenagers').submit(title='Controversial opinion thread', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
-		#print "submitted Controversial opinion thread"
+		print "submitted Controversial opinion thread"
 	if post == 3:
 		reddit.subreddit('teenagers').submit(title='Guys ask girls, girls ask guys', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted Guys ask girls, girls ask guys"

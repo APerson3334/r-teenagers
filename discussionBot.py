@@ -250,5 +250,17 @@ while 1 == 1: #Makes the bot work constantly
 	else if post == 75:
 		reddit.subreddit('teenagers').submit(title="What's your biggest insecurity?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your biggest insecurity?"
+	else if post == 76:
+		reddit.subreddit('teenagers').submit(title='What are you known for at school?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted What are you known for at school?'
+	else if post == 77:
+		reddit.subreddit('teenagers').submit(title="What's the worst grade you've ever gotten on a test?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's the worst greade you've ever gotten on a test?"
+	else if post == 78:
+		reddit.subreddit('teenagers').submit(title="What's your favorite album?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print "submitted What's your favorite album?"
+	else if post == 79:
+		reddit.subreddit('teenagers').submit(title='How many people go to your school?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		print 'submitted How many people go to your school?'
 	# Continue for the rest of the threads in timawesomeness' wiki
     time.sleep(3600) # Wait 3600 seconds (1 hour) before posting again

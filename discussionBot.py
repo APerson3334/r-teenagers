@@ -55,7 +55,7 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title='What was one good thing and one bad thing that happened today?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted What was one good thing and one bad thing that happened today?'
 	if post == 13:
-		reddit.subreddit('teenagers'),submit(title='Yay or nay thread', selftext="""Comment something and people will respond with yay or nay
+		reddit.subreddit('teenagers').submit(title='Yay or nay thread', selftext="""Comment something and people will respond with yay or nay
 		
 		^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!'""", flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Yay or nay thread'

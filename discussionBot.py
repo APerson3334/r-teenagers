@@ -110,7 +110,7 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title='Who is your favorite artist/band?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Who is your favorite artist/band?'
 	if post == 28:
-		reddit.subreddit('teenagers').submit(title='Why is your best friend your best friend?', selftex ='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		reddit.subreddit('teenagers').submit(title='Why is your best friend your best friend?', selftext ='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Why is your best friend your best friend?'
 	if post == 29:
 		reddit.subreddit('teenagers').submit(title='Post your favorite image right now', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')

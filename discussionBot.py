@@ -28,16 +28,16 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title='Guys ask girls, girls ask guys', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted Guys ask girls, girls ask guys"
 	if post == 4:
-		reddit.subreddit('teenagers').submit(title='Selfie thread', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Selfie thread', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print "submitted Selfie thread"
 	if post == 5:
-		reddit.subreddit('teenagers').submit(title='Selfie thread but you have to take a new selfie for it', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Selfie thread but you have to take a new selfie for it', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Selfie thread but you have to take a new selfie for it'
 	if post == 6:
 		reddit.subreddit('teenagers').submit(title='User recognition thread', selftext='Comment and people will tell you how well they recognize you on a scale of 1-10.', flair_id='1b713a20-845f-11e3-a1ce-12313d2241706b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted User recognition thread'
 	if post == 7:
-		reddit.subreddit('teenagers').submit(title='Truth or dare thread', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Truth or dare thread', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Truth or dare thread'
 	if post == 8:
 		reddit.subreddit('teenagers').submit(title='How tall are you?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -46,10 +46,10 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title='Camera roll thread', selftext="Comment the number of images in your camera roll, then someone will reply with a number and you'll reply with the corresponding picture.", flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Camera roll thread'
 	if post == 10:
-		reddit.subreddit('teenagers').submit('teenagers', '2 truths and a lie thread', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit('teenagers', '2 truths and a lie thread', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted 2 truths and a lie thread'
 	if post == 11:
-		reddit.subreddit('teenagers').submit(title="What's something that a lot of people like but you don't care for?", selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
+		reddit.subreddit('teenagers').submit(title="What's something that a lot of people like but you don't care for?", selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's something that a lot of people like but you don't care for?"
 	if post == 12:
 		reddit.subreddit('teenagers').submit(title='What was one good thing and one bad thing that happened today?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -66,13 +66,13 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title='Truth thread', selftext='Like truth or dare but without the dares since nobody ever chooses dare anyway', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Truth thread'
 	if post == 16:
-		reddit.subreddit('teenagers').submit(title='Sub dare thread', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Sub dare thread', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Sub dare thread'
 	if post == 17:
 		reddit.subreddit('teenagers').submit(title='Rice purity test scores', selftext='http://www.ricepuritytest.com', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Rice purity test scores'
 	if post == 18:
-		reddit.subreddit('teenagers').submit(title='Would you rather thread', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Would you rather thread', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 		print 'submitted Would you rather thread'
 	if post == 19:
 		reddit.subreddit('teenagers').submit(title="What's your favorite thing you own?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
@@ -206,7 +206,7 @@ while 1 == 1: #Makes the bot work constantly
 		reddit.subreddit('teenagers').submit(title="What's your favorite holiday?", selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print "submitted What's your favorite holiday?"
 	if post == 60:
-		reddit.subreddit('teenagers').submit(title='Share a fun fact about yourself', selftext='^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
+		reddit.subreddit('teenagers').submit(title='Share a fun fact about yourself', selftext='^^^^^^^^^^^^^^^^^^^^^^^^^^hi', flair_id='6b01166e-6435-11e2-a77a-12313d051e91')
 	if post == 61:
 		reddit.subreddit('teenagers').submit(title='Where are you from?', selftext='^^remember ^^to ^^sort ^^/r/teenagers ^^by ^^new ^^to ^^engage ^^in ^^new ^^discussion ^^posts!', flair_id='1b713a20-845f-11e3-a1ce-12313d224170')
 		print 'submitted Where are you from?'
